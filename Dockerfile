@@ -10,7 +10,7 @@ RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.
 RUN yum -y update \
  && yum -y install epel-release iproute crontabs \
  && yum -y install nginx \
- && yum clean all
+ && yum clean all \
  && rm -rf /etc/localtime \
  && ln -s /usr/share/zoneinfo/Europe/Berlin /etc/localtime
 
