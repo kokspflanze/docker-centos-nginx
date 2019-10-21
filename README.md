@@ -1,5 +1,5 @@
 # docker-centos-nginx
-Docker with CentOS 7, systemd and nginx
+Docker with CentOS 8, systemd and nginx
 
 # Pull
 
