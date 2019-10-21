@@ -4,7 +4,7 @@ MAINTAINER "KoKsPfLaNzE" <kokspflanze@protonmail.com>
 
 ENV container docker
 
-RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 
 # normal updates, tools, nginx, cleanup
 RUN yum -y update \
